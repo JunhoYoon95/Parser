@@ -34,8 +34,9 @@ void input_data(char *str)
     printf("\t3. B -> bC");
     printf("\t4. C -> cC");
     printf("\t5. C -> b");
-    printf("Input(넣어보세요. Parsing을 해 보겠습니다. : ) = ");
-    scanf("%s", str);
+    string str = aacbb;
+    printf("Input(%s 를 Parsing을 해 보겠습니다. : ) = ",str);
+
     strcat(str, "$");
 }
 
